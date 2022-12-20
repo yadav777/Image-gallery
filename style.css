@@ -1,0 +1,89 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px 0 rgba(19, 22, 26, 0.65);
+}
+
+
+.carousel{
+  box-shadow: 0 4px 6px 0 rgba(19, 22, 26, 5);
+}
+
+.theme-title{
+  color:rgb(0, 41, 87);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+.rounded{
+  width: 300px;
+  height: 200px;
+  
+}
+
+#button{
+  margin-right: 15px;
+}
+
+/* for gallery */
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.heading{
+  text-align: center;
+  color: rgb(1, 79, 147);
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.container {
+  position: relative;
+  display: none;
+}
+
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
